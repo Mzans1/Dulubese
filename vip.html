@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mzansi Rise VIP</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+  <style>
+    .vip-banner {
+      background: url('https://www.toyota.co.za/images/default-source/new-vehicles/hilux/hilux-double-cab/hilux-dc-grs/01_grs.webp') no-repeat center center/cover;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.8);
+      font-size: 2rem;
+    }
+    .vip-content {
+      padding: 2rem;
+      text-align: center;
+    }
+    .vip-content img {
+      max-width: 100%;
+      height: auto;
+    }
+    .join-btn {
+      margin-top: 1.5rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header class="header_section">
+    <div class="container">
+      <div class="header_nav">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/logo.png" alt="Mzansi Rise Logo">
+          <span>Mzansi Rise</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <section class="vip-banner">
+    <div>Mzansi Rise VIP Investment Club</div>
+  </section>
+
+  <section class="vip-content container">
+    <h2>Join Our Exclusive VIP Investment Programme</h2>
+    <p>To become a member of the Mzansi Rise VIP Club, you must pay a once-off joining fee of <strong>R500</strong>.</p>
+    <p>VIP members receive:</p>
+    <ul style="text-align: left; max-width: 600px; margin: auto;">
+      <li>Priority withdrawals and investments</li>
+      <li>Exclusive promotions and bonuses</li>
+      <li>Monthly draws to <strong>win prizes</strong> – including a chance to <strong>win a Toyota vehicle</strong></li>
+      <li>Dedicated VIP support team</li>
+    </ul>
+    <img src="https://www.toyota.co.za/images/default-source/new-vehicles/vitz/vitz-xr/01_front.webp" alt="Win a Toyota Vitz" class="my-3">
+    <div class="join-btn">
+      <a href="payment.html" class="btn btn-success btn-lg">Join Now for R500</a>
+    </div>
+  </section>
+
+  <footer class="footer_section">
+    <div class="container">
+      <p>&copy; <span id="displayDateYear"></span> All Rights Reserved by <a href="index.html">Mzansi Rise</a></p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("displayDateYear").textContent = new Date().getFullYear();
+  </script>
+</body>
+
+</html>
